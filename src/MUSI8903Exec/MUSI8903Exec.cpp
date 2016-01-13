@@ -2,6 +2,10 @@
 #include <iostream>
 #include <ctime>
 
+#include "MUSI8903Config.h"
+
+#include "AudioFileIf.h"
+
 using std::cout;
 using std::endl;
 
@@ -20,6 +24,8 @@ int main(int argc, char* argv[])
     clock_t                 time                = 0;
 
     float                   **ppfAudioData      = 0;
+
+    CAudioFileIf            *phAudioFile        = 0;
 
     showClInfo ();
 
