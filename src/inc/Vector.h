@@ -4,6 +4,7 @@
 #include <cassert>
 #include <cstring>
 #include <limits>
+#include <cmath>
 
 class CVector
 {
