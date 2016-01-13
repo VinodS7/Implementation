@@ -27,3 +27,6 @@
 *.out
 *.app
 bld
+/bin/debug
+/*.bak
+/src/MUSI8903Exec/*.bak
